@@ -57,5 +57,14 @@ public class Guarderia {
         }
         return mayoresA5;
     }
+
+    @Override
+    public String toString() {
+        return "Guarderia{" +
+                "nombre='" + nombre + '\'' +
+                ", NIT='" + NIT + '\'' +
+                ", estudiantes=" + estudiantes +
+                '}';
+    }
 }
 
